@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+section div {
+  background-color: #17176b;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 15px;
+  color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
